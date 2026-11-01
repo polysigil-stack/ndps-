@@ -1,0 +1,44 @@
+[
+  {
+    "update_id": "UPDATE-2026-09-05-957",
+    "date": "2026-09-05",
+    "source_added": "State v. Test (2026)",
+    "sections_affected": [
+      "Section 42"
+    ],
+    "cases_affected": [],
+    "reason": "Verified against official Supreme Court judgment text.",
+    "reviewer": "Chief Legal Reviewer",
+    "verification_status": "verified",
+    "regression_result": "PASS",
+    "publication_status": "PUBLISHED"
+  },
+  {
+    "update_id": "UPDATE-2026-09-05-721",
+    "date": "2026-09-05",
+    "source_added": "State v. Test (2026)",
+    "sections_affected": [
+      "Section 42"
+    ],
+    "cases_affected": [],
+    "reason": "Verified against official Supreme Court judgment text.",
+    "reviewer": "Chief Legal Reviewer",
+    "verification_status": "verified",
+    "regression_result": "PASS",
+    "publication_status": "PUBLISHED"
+  },
+  {
+    "update_id": "UPDATE-2026-09-05-567",
+    "date": "2026-09-05",
+    "source_added": "State v. Test (2026)",
+    "sections_affected": [
+      "Section 42"
+    ],
+    "cases_affected": [],
+    "reason": "Verified against official Supreme Court judgment text.",
+    "reviewer": "Chief Legal Reviewer",
+    "verification_status": "verified",
+    "regression_result": "PASS",
+    "publication_status": "PUBLISHED"
+  }
+]

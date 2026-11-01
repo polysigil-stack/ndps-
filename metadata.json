@@ -1,0 +1,8 @@
+{
+  "name": "NDPS Training Assistant",
+  "description": "Reference-based NDPS training and procedural knowledge assistant grounded strictly in official reference material.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

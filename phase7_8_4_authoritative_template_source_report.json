@@ -1,0 +1,20 @@
+{
+  "phase": "7.8.4",
+  "status": "PASS",
+  "authoritativeSource": "templateof ndps",
+  "templatesChecked": 14,
+  "templatesMatched": 14,
+  "templatesMismatched": 0,
+  "sourceIdentityCorrect": true,
+  "rukkaVerified": true,
+  "section50Verified": true,
+  "section52AVerified": true,
+  "section57Verified": true,
+  "routingRegression": "PASS",
+  "languageRegression": "PASS",
+  "build": "PASS",
+  "lint": "PASS",
+  "totalAssertions": 110,
+  "passedAssertions": 110,
+  "failedAssertions": 0
+}

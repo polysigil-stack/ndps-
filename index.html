@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NDPS Intelligence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <meta name="description" content="NDPS Intelligence — Investigation & Legal Assistant grounded in statutory provisions, procedural manuals, and Supreme Court rulings." />
+    <meta property="og:title" content="NDPS Intelligence" />
+    <meta property="og:description" content="NDPS Intelligence — Investigation & Legal Assistant grounded in statutory provisions, procedural manuals, and Supreme Court rulings." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        try {
+          if (typeof window !== 'undefined') {
+            var _origFetch = window.fetch;
+            var _safeFetch = function() {
+              var target = _origFetch || window.fetch;
+              return target ? target.apply(window, arguments) : Promise.reject(new Error('fetch not available'));
+            };
+
+            // Ensure Window.prototype.fetch has a setter if it is read-only
+            try {
+              if (typeof Window !== 'undefined' && Window.prototype) {
+                var protoDesc = Object.getOwnPropertyDescriptor(Window.prototype, 'fetch');
+                if (protoDesc && (!protoDesc.writable || !protoDesc.set)) {
+                  Object.defineProperty(Window.prototype, 'fetch', {
+                    get: function() { return _safeFetch; },
+                    set: function(fn) { _safeFetch = fn; },
+                    configurable: true,
+                    enumerable: true
+                  });
+                }
+              }
+            } catch (e1) {}
+
+            // Ensure window.fetch has a setter so libraries assigning window.fetch do not throw
+            try {
+              var winDesc = Object.getOwnPropertyDescriptor(window, 'fetch');
+              if (!winDesc || !winDesc.writable || !winDesc.set) {
+                Object.defineProperty(window, 'fetch', {
+                  get: function() { return _safeFetch; },
+                  set: function(fn) { _safeFetch = fn; },
+                  configurable: true,
+                  enumerable: true
+                });
+              }
+            } catch (e2) {}
+          }
+        } catch (e) {
+          console.warn('Fetch setter safeguard:', e);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

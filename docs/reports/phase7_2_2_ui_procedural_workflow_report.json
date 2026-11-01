@@ -1,0 +1,60 @@
+{
+  "phase": "7.2.2",
+  "status": "PASS",
+  "ui_integration": {
+    "backend_and_ui_consistent": true,
+    "frontend_uses_canonical_query_engine": true,
+    "no_stale_routing": true,
+    "no_hardcoded_procedural_answers": true
+  },
+  "critical_query": {
+    "query": "A suspected narcotic substance was recovered from a person. What documents should the investigating officer prepare from the moment of search and recovery until the sample is deposited with the FSL? Give me the complete step-by-step checklist, required sections/fields in every document, applicable NDPS provisions, and a sample professional format for each document.",
+    "ui_tested": true,
+    "correct_route": true,
+    "out_of_domain_rejection": false,
+    "grounded": true
+  },
+  "routing": {
+    "case": 9,
+    "general_ndps": 5,
+    "general_procedure": 3,
+    "document_workflow": 8,
+    "combined": 3,
+    "unsupported": 1
+  },
+  "case_isolation": {
+    "cross_case_leakage": false,
+    "global_to_case_leakage": false,
+    "case_to_global_leakage": false
+  },
+  "grounding": {
+    "unsupported_claims": 0,
+    "fabricated_case_facts": 0,
+    "false_rejections": 0,
+    "illustrative_disclaimers_preserved": true
+  },
+  "followups": {
+    "context_preserved": true
+  },
+  "provenance": {
+    "case_sources_correct": true,
+    "general_sources_correct": true
+  },
+  "regressions": {
+    "phase5": true,
+    "phase5_1": true,
+    "phase6": true,
+    "phase7": true,
+    "phase7_1": true,
+    "phase7_2": true,
+    "phase7_2_1": true
+  },
+  "total_tests": 30,
+  "passed": 30,
+  "failed": 0,
+  "failures": [],
+  "notes": [
+    "Verified end-to-end API and engine execution across critical FSL workflow query, matrix queries, case procedural questions, and combined queries.",
+    "Confirmed strict adherence to case/global isolation, follow-up context preservation, and illustrative format disclaimers."
+  ]
+}

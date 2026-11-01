@@ -1,0 +1,46 @@
+{
+  "case_id": "session_case_session_case_sc2_interception_only_1793467006565_75",
+  "case_title": "Session Case (session_case_sc2_interception_only_1793467006565_75)",
+  "is_fixture": false,
+  "record_type": "case",
+  "document_type": "INTERACTIVE_SESSION",
+  "source_document": "Interactive Narrative",
+  "pages": 1,
+  "ocr_status": "none",
+  "documents": [],
+  "fir_details": {
+    "police_station": "",
+    "district": "",
+    "state": "",
+    "fir_number": "",
+    "date": "",
+    "sections": [],
+    "informant_complainant": "",
+    "investigating_officer": ""
+  },
+  "persons": [],
+  "vehicle": {
+    "type": "",
+    "registration_number": "",
+    "documents_checked": [],
+    "taken_into_possession": false,
+    "search_conducted": false
+  },
+  "seizure": {
+    "substance": "",
+    "bags": "",
+    "total_quantity": "",
+    "place": "",
+    "sampling_done": false,
+    "sampling_description": "",
+    "sealing_done": false,
+    "sealing_description": "",
+    "ncb_triplicate_documentation": false
+  },
+  "procedural_steps": [],
+  "procedural_steps_not_established": [],
+  "source_locations": [],
+  "confirmed_facts": {},
+  "current_stage": 1,
+  "workflow_status": "PENDING"
+}

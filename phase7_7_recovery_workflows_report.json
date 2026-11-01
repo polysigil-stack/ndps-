@@ -1,0 +1,21 @@
+{
+  "phase": "7.7",
+  "status": "FAIL",
+  "totalAssertions": 33,
+  "passed": 30,
+  "failed": 3,
+  "chanceRecovery": "PASS",
+  "informationBasedRecovery": "PASS",
+  "comparison": "PASS",
+  "caseAwareMatching": "PASS",
+  "statutoryGuardrails": "PASS",
+  "languageAlignment": "PASS",
+  "TTS": "PASS",
+  "grounding": "PASS",
+  "claimAuditor": "PASS",
+  "OOD": "PASS",
+  "regression": "PASS",
+  "build": "PASS",
+  "lint": "PASS",
+  "findings": []
+}

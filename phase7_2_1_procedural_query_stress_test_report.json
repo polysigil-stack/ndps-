@@ -1,0 +1,48 @@
+{
+  "phase": "7.2.1",
+  "status": "PASS",
+  "total_tests": 77,
+  "passed": 77,
+  "failed": 0,
+  "routing": {
+    "case": 57,
+    "general_ndps": 2,
+    "general_procedure": 3,
+    "document_workflow": 2,
+    "combined": 6,
+    "unsupported": 4
+  },
+  "case_context": {
+    "case_queries_grounded": true,
+    "cross_case_leakage": false,
+    "global_rag_leakage": false,
+    "not_established_handling": true,
+    "conflict_handling": true
+  },
+  "followups": {
+    "context_preserved": true,
+    "which_section": true,
+    "tell_me_more": true,
+    "what_happened_next": true
+  },
+  "grounding": {
+    "unsupported_case_claims": 0,
+    "fabricated_case_facts": 0,
+    "false_rejections": 0
+  },
+  "regressions": {
+    "phase5": true,
+    "phase5_1": true,
+    "phase6": true,
+    "phase7": true,
+    "phase7_1": true,
+    "phase7_2": true
+  },
+  "failures": [],
+  "notes": [
+    "All 77+ procedural stress test queries executed successfully across 12 distinct categories.",
+    "Case procedural routing correctly isolates active case records without cross-case leakage.",
+    "Out-of-domain and safety queries are correctly handled as unsupported.",
+    "Follow-up context is successfully preserved."
+  ]
+}
